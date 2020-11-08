@@ -1,0 +1,130 @@
+body {
+  background-color: #ddd;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #aaa;
+  left: 0;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  color: #fff;
+  float: right;
+  font-size: 22px;
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+nav ul:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+section,
+aside {
+  background-color: #eee;
+  float: left;
+  width: 46%;
+  padding: 1%;
+  margin: 1%;
+}
+
+#banner {
+  margin: 1%;
+  max-height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#banner h2 {
+  color: #fff;
+  font-family: 'Merienda';
+  left: 0;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.columns:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.content {
+  background-color: #ccc;
+  left: 50px;
+  margin: 50px 1% 0px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+}
+
+.content p {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+  -webkit-column-rule: 1px solid #000;
+  column-rule: 1px solid #000;
+}
+
+.wrapper {
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.blue {
+  background-color: blue;
+  float: right;
+  top: 5px;
+}
+
+.red {
+  background-color: red;
+  float: right;
+  top: 15px;
+}
+
+.green {
+  background-color: green;
+  float: right;
+  top: 25px;
+}
+
+.box {
+  height: 100px;
+  width: 33.33%;
+  position: relative;
+}
+
+.boxes {
+  margin: 0 1%;
+}
+
+.boxes:after {
+  content: '';
+  display: block;
+  clear: both;
+}
