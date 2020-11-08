@@ -1,14 +1,18 @@
 # CSS Positioning Test 01
 
+- Created by Dennis Schmalstieg
+- Webdesign
+- HTML, CSS
+
 Testing the positioning features of CSS
 
-# Ziel dieser Tests
+# Goals
 
-- Positionierung von Elementen mit CSS
-- Darstellungsprobleme beheben
-- Webdesign optimieren
+- positioning css elements correctly
+- solve problems displaying css elements
+- optimize webdesign
 
-# Lösungen
+# Solutions
 
-- per Default gestapelt Elemente werden zum Teil verdeckt
-  -- per z-index Elemente nach vorne bringen
+- Problem: by default stacked elements are often covered by other elements
+- Solution: use a different value for the z-index
